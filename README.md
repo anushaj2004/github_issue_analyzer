@@ -46,7 +46,7 @@ github-issue-analyzer/
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/github-issue-analyzer.git  
+git clone https://github.com/anushaj2004/github-issue-analyzer.git  
 cd github-issue-analyzer
 
 ---
