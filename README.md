@@ -35,6 +35,7 @@ github-issue-analyzer/
 │   ├── requirements.txt
 │   └── .env
 │
+|
 ├── frontend/
 │   └── app.py
 │
