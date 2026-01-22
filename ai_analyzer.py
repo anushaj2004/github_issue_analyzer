@@ -15,7 +15,7 @@ if not GEMINI_API_KEY:
 # WORKING + STABLE GEMINI MODEL
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash-lite:generateContent?key=" + GEMINI_API_KEY
+    "gemini-flash-lite-latest:generateContent?key=" + GEMINI_API_KEY
 )
 
 def analyze_issue(issue_data):
@@ -118,3 +118,4 @@ Rules:
         result["suggested_labels"] = ["needs-review", "triage"]
 
     return result
+
